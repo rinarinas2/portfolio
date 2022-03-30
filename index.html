@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <title>My Portfolio</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="to-top">
+      <p>↑</p>
+      <img src="./img/to-top.png" alt="" />
+    </div>
+    <header class="header navbar navbar-light">
+      <div class="header__inner inner">
+        <h1 class="header__logo"><img src="./img/logo.png" alt="" /></h1>
+        <!-- /header__logo -->
+        <nav class="header__nav">
+          <a class="header__link" href="#profile">profile</a>
+          <a class="header__link" href="#service">Service</a>
+          <a class="header__link" href="#work">Work</a>
+          <a class="header__link" href="#contact">Contact</a>
+        </nav>
+        <button
+          class="header__hamburger navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div
+        class="navbar-collapse collapse header__drawer header-drawer"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav header-drawer__nav">
+          <li class="nav-item header-drawer__link">
+            <a class="" href="#profile">profile</a>
+          </li>
+          <li class="nav-item header-drawer__link">
+            <a class="" href="#service">Service</a>
+          </li>
+          <li class="nav-item header-drawer__link">
+            <a class="" href="#work">Work</a>
+          </li>
+          <li class="nav-item header-drawer__link">
+            <a class="" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="main-visual">
+      <div class="main-visual__content">
+        <div class="main-visual__text">My Portfolio</div>
+        <div class="main-visual__lead">
+          ポートフォリオをご覧いただきありがとうございます！
+        </div>
+      </div>
+      <!-- /main-visual__content -->
+    </div>
+    <!-- /main-visual -->
+
+    <div id="profile" class="profile section">
+      <div class="profile__inner inner">
+        <h2 class="section__title">About Me</h2>
+        <div class="section__lead">わたしについて</div>
+        <div class="section__body">
+          <div class="profile-card profile__card">
+            <div class="profile-card__image">
+              <img src="./img/Power Moves - Mixable Body.png" alt="" />
+              <div class="profile-card__sns sns-links">
+                <!-- <div class="sns-links__item"><a href="" target="_blank"><img src="img/twitter.svg" alt="" width="30" height="30"></a></div>
+                <div class="sns-links__item"><a href="" target="_blank"><img src="img/facebook.svg" alt="" width="30" height="30"></a></div> -->
+              </div>
+            </div>
+            <div class="profile-card__body">
+              <div class="profile-card__title">自己紹介</div>
+              <div class="profile-card__name">阪口 莉奈</div>
+              <div class="profile-card__content">
+                <p>北海道旭川市でホームページ制作を行っております。</p>
+                <p>
+                  お客様に寄り添ったホームページ制作が得意です。理想のホームページを一緒に作っていきましょう！
+                </p>
+              </div>
+              <!--<div class="profile-card__sub-head">略歴</div>
+              <div class="profile-card__history">
+                <ul>
+                  <li>2014年〜 システムエンジニア</li>
+                  <li>2017年〜 Webマーケッター</li>
+                  <li>2020年〜 Web制作</li>
+                </ul>
+              </div>--><!-- /profile-card__history -->
+              <div class="profile-card__sub-head">制作へのこだわり</div>
+              <div class="profile-card__concept">
+                ホームページで実現したい目的をしっかりとお伺いさせていただき、お客様の理想を叶えるホームページ制作を一緒に目指してまります。
+              </div>
+            </div>
+          </div>
+          <!-- /profile-card -->
+        </div>
+        <!-- /section__body -->
+      </div>
+      <!-- /profile__inner inner -->
+    </div>
+    <!-- /profile -->
+
+    <div id="service" class="service section section--gray">
+      <div class="service__inner inner">
+        <h2 class="section__title">Service</h2>
+        <div class="section__lead">できること</div>
+        <div class="section__body">
+          <div class="service__cards">
+            <div class="service-card service__card">
+              <div class="service-card__image">
+                <img src="./img/Brazuca - Browsing.png" alt="" />
+              </div>
+              <div class="service-card__title">ホームページ制作</div>
+              <div class="service-card__content">
+                ご要望に応じて柔軟にご提案させていただきます。目的を達成するためのホームページを一緒に作成してきましょう！
+              </div>
+            </div>
+            <!-- /service-card -->
+            <div class="service-card service__card">
+              <div class="service-card__image">
+                <img src="./img/Brazuca - Standing.png" alt="" />
+              </div>
+              <div class="service-card__title">ホームページ修正</div>
+              <div class="service-card__content">
+                文言の変更や表示崩れなど、ホームページでのちょっとしたお困りごとに対応いたします。
+              </div>
+            </div>
+            <!-- /service-card -->
+            <div class="service-card service__card">
+              <div class="service-card__image">
+                <img src="./img/Brazuca - Pride.png" alt="" />
+              </div>
+              <div class="service-card__title">ホームページ相談</div>
+              <div class="service-card__content">
+                ホームページ制作に関するご相談を無料でお受けしております。些細なことでもお気軽にご相談ください！
+              </div>
+            </div>
+            <!-- /service-card -->
+          </div>
+          <!-- /service__cards -->
+        </div>
+        <!-- /section__body -->
+      </div>
+      <!-- /inner -->
+    </div>
+    <!-- /service -->
+
+    <div id="work" class="work section">
+      <div class="work__inner inner">
+        <h2 class="section__title">Work</h2>
+        <div class="section__lead">制作例</div>
+        <div class="section__body">
+          <div class="work__cards">
+            <div class="work__card work-card">
+              <div class="work-card__image">
+                <img src="img/portfolio1.png" alt="" width="320" height="200" />
+              </div>
+              <!-- /work-card__image -->
+              <div class="work-card__body">
+                <div class="work-card__title">デイトラ簡易版</div>
+                <div class="work-card__comment">
+                  オーダーメイドで作成したホームページです。お客様の要望に応じてサイト構成を検討しご満足いただけるホームページとなりました。
+                </div>
+                <div class="work-card__linK">
+                  <a href="" target="_blank">サイトを見る</a>
+                </div>
+                <!-- /work-card__linK -->
+              </div>
+              <!-- /work-card__body -->
+            </div>
+            <!-- /work__card work-card -->
+            <div class="work__card work-card">
+              <div class="work-card__image">
+                <img src="img/portfolio2.png" alt="" width="320" height="200" />
+              </div>
+              <!-- /work-card__image -->
+              <div class="work-card__body">
+                <div class="work-card__title">テンプレートLP</div>
+                <div class="work-card__comment">
+                  オーダーメイドで作成したホームページです。お客様の要望に応じてサイト構成を検討しご満足いただけるホームページとなりました。
+                </div>
+                <div class="work-card__linK">
+                  <a href="" target="_blank">サイトを見る</a>
+                </div>
+                <!-- /work-card__linK -->
+              </div>
+              <!-- /work-card__body -->
+            </div>
+            <!-- /work__card work-card -->
+          </div>
+          <!-- /work__cards -->
+        </div>
+        <!-- /section__body -->
+      </div>
+      <!-- /work__inner inner -->
+    </div>
+    <!-- /section -->
+
+    <div id="contact" class="contact section section--gray">
+      <div class="contact__inner inner">
+        <h2 class="section__title">Contact</h2>
+        <div class="section__lead">お問い合わせ</div>
+        <div class="section__body">
+          <div class="contact__message">
+            「メール」または「Twitter」よりお気軽にご相談ください！
+          </div>
+          <div class="contact__items">
+            <div class="contact__item">
+              <a class="contact__img" href="" target="_blank"
+                ><img src="img/mail.svg" alt="" width="80" height="80"
+              /></a>
+              <a class="contact__name" href="" target="_blank"
+                >info@example.com</a
+              >
+            </div>
+            <div class="contact__item">
+              <a class="contact__img" href="" target="_blank"
+                ><img src="img/twitter.svg" alt="" width="80" height="80"
+              /></a>
+              <a class="contact__name" href="" target="_blank">@example</a>
+            </div>
+          </div>
+          <!-- /contact__items -->
+        </div>
+        <!-- /section__body -->
+      </div>
+      <!-- /contact__inner inner -->
+    </div>
+    <!-- /section -->
+
+    <footer class="footer">
+      <div class="footer__inner inner">
+        <div class="footer__copyright">
+          Copyright &copy; 2020 Logo All rights reserved.
+        </div>
+        <!-- /footer__copyright -->
+      </div>
+      <!-- /footer__inner inner -->
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>
