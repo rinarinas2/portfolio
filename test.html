@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+</head>
+
+<body>
+  <header>
+
+    <div class="header__inner">
+      <h1 class="header__left">
+        <a href="" class="header__logo"><img src="./img/logo-1.png" alt=""></a>
+      </h1>
+      <div class="header__right">
+        <ul class="header__nav">
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link"><img src="./img/icon-01.png" alt=""><span>ホーム</span></a>
+          </li>
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link"><img src="./img/icon-02.png" alt=""><span>当院について</span></a>
+          </li>
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link"><img src="./img/icon-03.png" alt=""><span>診療案内</span></a>
+          </li>
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link"><img src="./img/icon-04.png" alt=""><span>スタッフ紹介</span></a>
+          </li>
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link"><img src="./img/icon-05.png" alt=""><span>スタッフブログ</span></a>
+          </li>
+          <li class="header__nav-item">
+            <a href="" class="header__nav-link"><img src="./img/icon-07.png" alt=""><span>お問い合わせ</span></a>
+          </li>
+        </ul>
+        <div class="header__tel">
+          <p class="header__tel-text">〒166-0001 東京都杉並区阿佐谷北7-3-1</p>
+          <a href="" class="header__tel-number">
+            <img src="./img/icon_tel-1.png" alt="">
+            03-1234-5678
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><img src="./img/top-01.png" alt="">
+        <div class="swiper-text-img"><img src="./img/top-text.png" alt=""></div>
+      </div>
+      <div class="swiper-slide"><img src="./img/top-02.png" alt="">
+        <div class="swiper-text-img"><img src="./img/top-text.png" alt=""></div>
+      </div>
+      <div class="swiper-slide"><img src="./img/top-03.png" alt="">
+
+      </div>
+      ...
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+
+
+  <div class="top">
+
+    <section class="top__info">
+      <div class="top__info-news">
+        <div class="news-title-wrap">
+          <div class="news-title-head">
+            <h2 class="news-title">お知らせ</h2>
+            <span class="news-subtitle">NEWS</span>
+          </div>
+          <div class="news-list">
+            <a href="">過去のお知らせはこちら</a>
+          </div>
+        </div>
+        <a href="" class="top__archive">
+          <time class="top-news__published" datetime="2021-07-01T16:42:08+00:00">2021.07.01</time>
+          <p class="top-news__text">年末年始の営業時間のお知らせ</p>
+        </a>
+      </div>
+      <div class="top__info-table">
+        <img src="./img/medicalTimeSheet.png" alt="">
+        <img src="./img/medical-time-pc-1.png" alt="" class="top__info-table-img2">
+      </div>
+    </section>
+
+    <section class="concept">
+      <div class="concept__wrap">
+        <div class="concept__img">
+          <img src="./img/concept-img1.png" alt="">
+        </div>
+        <div class="concept__description">
+          <span class="concept__subtitle">CONCEPT</span>
+          <h2 class="concept__title">
+            健康的で素敵な笑顔あふれる<br>
+            街づくりを目指して
+          </h2>
+          <div class="concept__textbox">
+            <p class="concept__text">
+              私たちは最新の医療技術を追求すると共に、患者様とのコミュニケーションを大事することで、気軽に通いやすく些細なことでも相談できる「街の掛かり付け医」を目指しております。<br>
+              お子様からご高齢の方まで、快適な空間で治療が受けられる場を作り、地域医療に貢献しきたいと考えております。</p>
+          </div>
+          <div class="concept__btn">
+            <a href="" class="c-btn">当院について</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="recommend">
+      <div class="recommend__inner inner">
+        <div class="section__head">
+          <div class="section__head-img">
+            <img src="./img/title-deco-1.png" alt="">
+          </div>
+          <h2 class="recommend__title">当院の3つのおすすめ</h2>
+          <div class="section__head-img">
+            <img src="./img/title-deco-1.png" alt="">
+          </div>
+        </div>
+
+        <div class="recommend__items">
+          <div class="recommend__item">
+            <div class="recommend__item-img1">
+              <img src="./img/recommend-1.png" alt="">
+            </div>
+            <div class="recommend__item-img2">
+              <img src="./img/recommend-img-01.png" alt="">
+            </div>
+            <div class="recommend__text">
+              <p>
+                歯の治療において、小さな違和感は大きなストレスにつながります。
+                私たちは常に快適な歯科医療技術の研究を行っております。
+              </p>
+            </div>
+          </div>
+          <div class="recommend__item">
+            <div class="recommend__item-img1">
+              <img src="./img/recommend-2.png" alt="">
+            </div>
+            <div class="recommend__item-img2">
+              <img src="./img/recommend-img-02.png" alt="">
+            </div>
+            <div class="recommend__text">
+              <p>
+                「通いやすさ」も医院選びの重要なポイントと考え、2019年のリニューアルを期に更に駅の近くへ場所を移しました。
+              </p>
+            </div>
+          </div>
+          <div class="recommend__item">
+            <div class="recommend__item-img1">
+              <img src="./img/recommend-3.png" alt="">
+            </div>
+            <div class="recommend__item-img2">
+              <img src="./img/recommend-img-03.png" alt="">
+            </div>
+            <div class="recommend__text">
+              <p>朝から夜までお仕事をされている方のために、診療時間を見直しました。<br>
+                <span>※駆け込みでも対応可能ですが、事前にご連絡いただけるとスムーズです。</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="medical__bg1">
+      <img src="./img/bg-top-1.png" alt="">
+    </div>
+    <section class="medical">
+      <div class="medical__inner inner">
+        <div class="section__head">
+          <div class="section__head-img">
+            <img src="./img/title-deco-1.png" alt="">
+          </div>
+          <h2 class="medical__title">診療案内</h2>
+          <div class="section__head-img">
+            <img src="./img/title-deco-1.png" alt="">
+          </div>
+        </div>
+        <div class="medical__content">
+          <div class="medical__left">
+            <div class="medical__left-content">
+              <div class="medical__left-title">
+                一般診療
+              </div>
+              <div class="medical__left-text">
+                虫歯・入れ歯・小児歯科
+              </div>
+            </div>
+          </div>
+          <div class="medical__right">
+            <div class="medical__right-content">
+              <div class="medical__right-title">
+                特殊診療
+              </div>
+              <div class="medical__right-text">
+                インプラント・ホワイトニング
+                予防歯科・口腔外科・審美歯科
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="medical__lead">
+          <div class="medical__lead-text">
+            <p>当院では、患者さんの歯の健康状態や治療方針を丁寧にカウンセリングし、十分ご理解していただいた上で治療いたします。<br>
+              痛みに配慮することと、可能な限り削らない・抜かない治療に努めております。<br>
+              <span>※特殊性の高い矯正治療などは保険の適応外となります。 これらの治療を行う際は事前に詳細と費用のご説明いたします。
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="medical__bg2">
+      <img src="./img/bg-bottom-1.png" alt="">
+      <div class="medical__bg-deco1">
+        <img src="./img/bottom-deco-1.png" alt="">
+      </div>
+      <div class="medical__bg-deco2">
+        <img src="./img/bottom-deco-2.png" alt="">
+      </div>
+    </div>
+
+    <section class="blog">
+      <div class="section__head">
+        <div class="section__head-img">
+          <img src="./img/title-deco-1.png" alt="">
+        </div>
+        <h2 class="medical__title">スタッフブログ</h2>
+        <div class="section__head-img">
+          <img src="./img/title-deco-1.png" alt="">
+        </div>
+      </div>
+      <div class="blog__lists blog__lists-inner">
+        <a href="" class="blog__card">
+          <div class="blog__card-img">
+            <img src="./img/blog-1.png" alt="">
+          </div>
+          <div class="blog__card-body">
+            <p class="blog__card-category">その他</p>
+            <div class="blog__card-title">
+              記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。
+            </div>
+            <time class="blog__card-published">2020.02.14</time>
+          </div>
+        </a>
+        <a href="" class="blog__card">
+          <div class="blog__card-img">
+            <img src="./img/blog-1.png" alt="">
+          </div>
+          <div class="blog__card-body">
+            <p class="blog__card-category">その他</p>
+            <div class="blog__card-title">
+              記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。
+            </div>
+            <time class="blog__card-published">2020.02.14</time>
+          </div>
+        </a>
+        <a href="" class="blog__card">
+          <div class="blog__card-img">
+            <img src="./img/blog-1.png" alt="">
+          </div>
+          <div class="blog__card-body">
+            <p class="blog__card-category">その他</p>
+            <div class="blog__card-title">
+              記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。
+            </div>
+            <time class="blog__card-published">2020.02.14</time>
+          </div>
+        </a>
+        <a href="" class="blog__card">
+          <div class="blog__card-img">
+            <img src="./img/blog-1.png" alt="">
+          </div>
+          <div class="blog__card-body">
+            <p class="blog__card-category">その他</p>
+            <div class="blog__card-title">
+              記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。
+            </div>
+            <time class="blog__card-published">2020.02.14</time>
+          </div>
+        </a>
+        <a href="" class="blog__card">
+          <div class="blog__card-img">
+            <img src="./img/blog-1.png" alt="">
+          </div>
+          <div class="blog__card-body">
+            <p class="blog__card-category">その他</p>
+            <div class="blog__card-title">
+              記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。
+            </div>
+            <time class="blog__card-published">2020.02.14</time>
+          </div>
+        </a>
+        <a href="" class="blog__card">
+          <div class="blog__card-img">
+            <img src="./img/blog-1.png" alt="">
+          </div>
+          <div class="blog__card-body">
+            <p class="blog__card-category">その他</p>
+            <div class="blog__card-title">
+              記事のタイトルが入ります。記事のタイトルが入ります。記事のタイトルが入ります。
+            </div>
+            <time class="blog__card-published">2020.02.14</time>
+          </div>
+        </a>
+      </div>
+      <div class="blog__btn">
+        <a href="" class="c-btn">スタッフブログ一覧はこちら</a>
+      </div>
+    </section>
+
+  </div>
+
+
+  <div class="footer__top-img"></div>
+  <footer>
+    <div class="footer__inner">
+      <div class="footer__info">
+        <div class="footer__left">
+          <div class="footer__left-img">
+            <img src="./img/logo-1.png" alt="">
+          </div>
+          <p class="footer__left-access">
+            〒166-0001 <span>東京都杉並区阿佐谷北7-3-1</span>
+          </p>
+          <a href="" class="footer__left-tel">
+            <img src="./img/icon_tel-1.png" alt="">
+            03-1234-5678
+          </a>
+          <p class="footer__left-time">(年中無休 AM9:00〜PM22:00)</p>
+          <div class="footer__left-btn-wrap">
+            <a href="" class="footer__bluebtn footer__btn">
+              <img src="./img/icon-pc10.png" alt="">
+              <span>WEB予約</span>
+            </a>
+            <a href="" class="footer__whitebtn footer__btn">
+              <img src="./img/icon-07.png" alt="">
+              <span>お問い合わせ</span>
+            </a>
+          </div>
+          <div class="footer__left-table">
+            <img src="./img/medicalTimeSheet-1.png" alt="">
+          </div>
+        </div>
+        <div class="footer__right">
+          <div class="footer__right-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6479.738983332029!2d139.63115384660057!3d35.70482907036609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f277bd8e8ba3%3A0x35285e771d30e2b0!2z5rKz5YyX57eP5ZCI55eF6Zmi!5e0!3m2!1sja!2sjp!4v1647161636470!5m2!1sja!2sjp"
+              width="385" height="385" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+      <ul class="footer__nav">
+        <li class="footer__nav-item">
+          <a href="" class="footer__nav-item-top">TOP</a>
+        </li>
+        <li class="footer__nav-item">
+          当院について
+          <ul class="footer__nav-subitem">
+            <li class="p-footer-subNav__item">
+              <a href="" class="c-btn-arrowBlue">ポリシーと特徴</a>
+            </li>
+            <li class="p-footer-subNav__item">
+              <a href="" class="c-btn-arrowBlue">当院の様子</a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer__nav-item">
+          スタッフ紹介
+          <ul class="footer__nav-subitem">
+            <li class="p-footer-subNav__item">
+              <a href="" class="c-btn-arrowBlue">院長のあいさつ</a>
+            </li>
+            <li class="p-footer-subNav__item">
+              <a href="" class="c-btn-arrowBlue">スタッフ</a>
+            </li>
+            <li class="p-footer-subNav__item">
+              <a href="" class="c-btn-arrowBlue">スタッフブログ</a>
+            </li>
+          </ul>
+        </li>
+        <li class="footer__nav-item">
+          診療内容
+          <div class="footer__nav-itembox">
+            <ul class="footer__nav-subitem">
+              <li class="p-footer-subNav__item">
+                <a href="" class="c-btn-arrowBlue">一般歯科</a>
+              </li>
+              <li class="p-footer-subNav__item">
+                <a href="" class="c-btn-arrowBlue">小児歯科</a>
+              </li>
+              <li class="p-footer-subNav__item">
+                <a href="" class="c-btn-arrowBlue">予防歯科</a>
+              </li>
+              <li class="p-footer-subNav__item">
+                <a href="" class="c-btn-arrowBlue">入れ歯</a>
+              </li>
+            </ul>
+            <ul class="footer__nav-subitem">
+              <li class="p-footer-subNav__item">
+                <a href="" class="c-btn-arrowBlue">矯正歯科</a>
+              </li>
+              <li class="p-footer-subNav__item">
+                <a href="" class="c-btn-arrowBlue">ホワイトニング</a>
+              </li>
+              <li class="p-footer-subNav__item">
+                <a href="" class="c-btn-arrowBlue">口腔外科</a>
+              </li>
+              <li class="p-footer-subNav__item">
+                <a href="" class="c-btn-arrowBlue">レーザー治療</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="footer__nav-item">
+          お問い合わせ
+          <ul class="footer__nav-subitem">
+            <li class="p-footer-subNav__item">
+              <a href="" class="c-btn-arrowBlue">お問い合わせフォーム</a>
+            </li>
+            <li class="p-footer-subNav__item">
+              <a href="" class="c-btn-arrowBlue">WEB予約</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__copyright">
+      <p class="footer__copyright-text">
+        ©︎2020-2021 みなみ歯科クリニック
+      </p>
+    </div>
+  </footer>
+
+  <div class="top-btn">
+    <img src="./img/totop.png" alt="">
+  </div>
+
+  <a href="" class="reserve">
+    <img src="./img/icon-pc10.png" alt="">
+    <p class="reserve-text">WEB予約<br>
+      はこちら</p>
+  </a>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="./js/test.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper', {
+
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      effect: "fade", //フェードのエフェクト
+      autoplay: {
+        delay: 4000, //４秒後に次の画像へ
+        disableOnInteraction: false //ユーザー操作後に自動再生を再開する
+      },
+      speed: 500, //２秒かけながら次の画像へ移動
+      allowTouchMove: false, //マウスでのスワイプを禁止
+      navigation: { //左右のページ送りを有効にする
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      },
+
+    });
+
+    $(function () {
+      var topBtn = $('.top-btn');
+      topBtn.hide();
+
+      //ボタンの表示設定
+      $(window).scroll(function () {
+        if ($(this).scrollTop() > 800) {
+          //---- 画面を800pxスクロールしたら、ボタンを表示する
+          topBtn.fadeIn();
+        } else {
+          //---- 画面が800pxより上なら、ボタンを表示しない
+          topBtn.fadeOut();
+        }
+      });
+
+      //ボタンをクリックしたら、スクロールして上に戻る
+      topBtn.click(function () {
+        $('body,html').animate({
+          scrollTop: 0
+        }, 500);
+        return false;
+      });
+    });
+  </script>
+</body>
+
+</html>
