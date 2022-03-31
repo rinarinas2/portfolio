@@ -176,6 +176,12 @@ img {
 /*--------------------------------
  Works
 ---------------------------------*/
+
+.works-subtitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .works-list {
   display: flex;
   flex-wrap: wrap;
