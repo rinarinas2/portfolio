@@ -11,6 +11,10 @@
   }
 }
 
+li,ul{
+  list-style: none;
+}
+
 body {
   font-size: 16px;
   color: #333;

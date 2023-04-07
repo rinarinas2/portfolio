@@ -6,6 +6,10 @@ body {
   line-height: 1.5;
 }
 
+li {
+  list-style: none;
+}
+
 img {
   width: 100%;
   height: auto;
