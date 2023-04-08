@@ -340,7 +340,7 @@ img {
 @media screen and (max-width: 767px) {
   .top-picture {
     padding-top: 120%;
-    background: url(../img/PC/top.png) center center/cover;
+    background: url(../img/PC/day3top.png) center center/cover;
   }
 }
 

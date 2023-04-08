@@ -205,6 +205,9 @@ img {
 
 .works-img img {
   border: 1px solid #e6e6e6;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
 .works-name {
@@ -216,6 +219,7 @@ img {
 .works-info {
   font-size: 10px;
   margin-top: 5px;
+  
 }
 
 /*--------------------------------
