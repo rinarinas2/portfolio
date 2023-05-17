@@ -4,6 +4,7 @@ body {
   color: #082b48;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5;
+  margin: 0;
 }
 
 li {
@@ -259,6 +260,7 @@ footer {
   .header-nav {
     display: flex;
     justify-content: space-between;
+    padding: 0;
   }
 
   .header-nav-item {
@@ -323,7 +325,7 @@ footer {
 
   input[type="email"],
   input[type="text"] {
-    width: 100%;
+    width: 90%;
   }
 
   /* footer */

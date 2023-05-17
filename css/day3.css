@@ -444,6 +444,7 @@ img {
 @media screen and (max-width: 767px) {
   .feature-list {
     margin-top: 46px;
+    padding: 0;
   }
 }
 
@@ -579,6 +580,7 @@ img {
 @media screen and (max-width: 767px) {
   .products-list {
     margin-top: 48px;
+    padding: 0;
   }
 }
 
@@ -957,6 +959,7 @@ textarea {
 @media screen and (max-width: 767px) {
   .contact-item-input {
     margin-top: 3px;
+    margin-left: 0;
   }
 }
 
